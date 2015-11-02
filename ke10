@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="omvang_grondwatermodel_Den_Haag" id="omvang_grondwatermodel_Den_Haag">
+	<SimpleField name="id" type="int"></SimpleField>
+</Schema>
+<Folder><name>omvang_grondwatermodel_Den_Haag</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#omvang_grondwatermodel_Den_Haag">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><altitudeMode>relativeToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>relativeToGround</altitudeMode><coordinates>3.994020572595325,51.980908740617025 4.358441485436123,52.211697830908939 4.590164078516937,52.132526820228996 4.59215576939657,51.944319343167955 4.423747848979465,51.861675340489249 4.301783165959786,51.859776591471316 3.994020572595325,51.980908740617025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
